@@ -1,19 +1,7 @@
 # **🌿 SmartPlant System**
 
 SmartPlant is an AI-powered mobile application designed to help users identify plants, visualize geographical growing patterns, protect plantations using IoT monitoring, and ensure user data privacy through secure backend architecture. The system also includes automated AI retraining to support continuous learning and improvement.
-
-##  **👥 Contributing Members**
-
-| **Name** | 
-| --- |
-| Jonathan Kuok Kai YEO |     
-| James Teck Hock WONG |     
-| Miccole Yee Syuen PHIONG |     
-| Jun Wen NG |     
-| Aaron Yi Heng LAU |     
-| Daryl Jia Jie TAN |     
-| Chow Xian CHUNG |     
-
+   
 ##  **🚀 Key Features**
 
 - **AI-Powered Mobile Plant Identification**
@@ -21,6 +9,20 @@ SmartPlant is an AI-powered mobile application designed to help users identify p
 - **IoT-Enabled Plant Protection Alerts**
 - **Cybersecurity & Data Privacy Controls**
 - **Automated AI Model Retraining Module**
+
+## **👤 My Contribution**
+AI Model Management & Deployment
+
+My primary contribution focused on the AI model management lifecycle and AI backend deployment.
+
+Designed and implemented an automated AI retraining workflow based on newly verified plant observations and administrator-configured thresholds.
+Integrated verified user-submitted plant images into the AI training data lifecycle.
+Implemented the workflow for triggering model retraining when the configured data threshold is reached.
+Developed the model evaluation and replacement workflow, using validation performance to determine whether a newly trained model should become the active model.
+Deployed and configured the Python AI classification backend to provide plant identification services to the main application.
+Integrated the AI backend with the main system to support plant identification and model management functionality.
+
+
 
 ##  **🛠️ Local Development Setup**
 
